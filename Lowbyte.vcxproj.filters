@@ -1,42 +1,66 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Fichiers sources">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    <Filter Include="include">
+      <UniqueIdentifier>{89AF369E-F58E-B539-FEA6-40106A051C9B}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Fichiers d%27en-tête">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    <Filter Include="include\Lowbyte">
+      <UniqueIdentifier>{1E18FC21-8AA3-69E6-93B4-ECDAFFBEC5E6}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Fichiers de ressources">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    <Filter Include="include\Lowbyte\Event">
+      <UniqueIdentifier>{EFB7C69C-5B24-8297-2418-1AF59043A4FF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Lowbyte">
+      <UniqueIdentifier>{C277D1F2-2E2D-4AE8-B721-44BF23D640EC}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\Application.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="src\Log.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="include\Lowbyte\Core.hpp">
-      <Filter>Fichiers d%27en-tête</Filter>
+    <ClInclude Include="include\Lowbyte.hpp">
+      <Filter>include</Filter>
     </ClInclude>
     <ClInclude Include="include\Lowbyte\Application.hpp">
-      <Filter>Fichiers d%27en-tête</Filter>
+      <Filter>include\Lowbyte</Filter>
     </ClInclude>
-    <ClInclude Include="include\Lowbyte.hpp">
-      <Filter>Fichiers d%27en-tête</Filter>
+    <ClInclude Include="include\Lowbyte\Core.hpp">
+      <Filter>include\Lowbyte</Filter>
     </ClInclude>
     <ClInclude Include="include\Lowbyte\EntryPoint.hpp">
-      <Filter>Fichiers d%27en-tête</Filter>
+      <Filter>include\Lowbyte</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Lowbyte\Event\AppEvent.hpp">
+      <Filter>include\Lowbyte\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Lowbyte\Event\Event.hpp">
+      <Filter>include\Lowbyte\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Lowbyte\Event\KeyEvent.hpp">
+      <Filter>include\Lowbyte\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Lowbyte\Event\MouseEvent.hpp">
+      <Filter>include\Lowbyte\Event</Filter>
     </ClInclude>
     <ClInclude Include="include\Lowbyte\Log.hpp">
-      <Filter>Fichiers d%27en-tête</Filter>
+      <Filter>include\Lowbyte</Filter>
     </ClInclude>
+    <ClInclude Include="include\Lowbyte\pch.hpp">
+      <Filter>include\Lowbyte</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Lowbyte\Window.hpp" />
+    <ClInclude Include="include\Lowbyte\Platform\Windows\Window.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Lowbyte\Application.cpp">
+      <Filter>src\Lowbyte</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Lowbyte\Log.cpp">
+      <Filter>src\Lowbyte</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Lowbyte\pch.cpp">
+      <Filter>src\Lowbyte</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Lowbyte\Platform\Windows\Window.cpp" />
   </ItemGroup>
 </Project>

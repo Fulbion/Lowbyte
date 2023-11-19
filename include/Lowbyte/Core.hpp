@@ -9,3 +9,5 @@
 #else
 #error Lowbyte exclusively supports Windows...
 #endif // LB_PLATFORM_WINDOWS
+
+#define BIT(k) (1 << k)

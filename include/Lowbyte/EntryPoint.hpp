@@ -8,7 +8,6 @@ int main(int argc, char** argv)
 {
 	lowbyte::Log::init();
 	LB_CORE_WARN("Initialized log!");
-	LB_TRACE("Hello.");
 
 	auto app = lowbyte::createApp();
 	app->run();
