@@ -51,7 +51,7 @@ namespace lowbyte
 		std::string toString() const override
 		{
 			std::stringstream sstr;
-			sstr << "KeyPressedEvent: " << m_keyCode << " (" << m_repeatCount << " repeats)";
+			sstr << "KeyPressedEvent: " << m_keyCode;
 			return sstr.str();
 		}
 

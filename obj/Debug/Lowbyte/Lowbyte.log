@@ -1,10 +1,16 @@
 ﻿  Application.cpp
-C:\Users\Fulbion\source\repos\Lowbyte\include\Lowbyte\Application.hpp(18,27): warning C4251: 'lowbyte::Application::m_window' : class 'std::unique_ptr<lowbyte::Window,std::default_delete<lowbyte::Window>>' nécessite une interface DLL pour être utilisé(e) par les clients de class 'lowbyte::Application'
-C:\Users\Fulbion\source\repos\Lowbyte\include\Lowbyte\Application.hpp(18,8): message : voir la déclaration de 'std::unique_ptr<lowbyte::Window,std::default_delete<lowbyte::Window>>'
+C:\Users\Fulbion\source\repos\Lowbyte\include\Lowbyte\Application.hpp(25,27): warning C4251: 'lowbyte::Application::m_window' : class 'std::unique_ptr<lowbyte::Window,std::default_delete<lowbyte::Window>>' nécessite une interface DLL pour être utilisé(e) par les clients de class 'lowbyte::Application'
+C:\Users\Fulbion\source\repos\Lowbyte\include\Lowbyte\Application.hpp(25,8): message : voir la déclaration de 'std::unique_ptr<lowbyte::Window,std::default_delete<lowbyte::Window>>'
 C:\Users\Fulbion\source\repos\Lowbyte\include\Lowbyte\Log.hpp(19,42): warning C4251: 'lowbyte::Log::s_coreLogger' : class 'std::shared_ptr<spdlog::logger>' nécessite une interface DLL pour être utilisé(e) par les clients de class 'lowbyte::Log'
 C:\Users\Fulbion\source\repos\Lowbyte\external\spdlog\include\spdlog\details\registry.h(33,31): message : voir la déclaration de 'std::shared_ptr<spdlog::logger>'
 C:\Users\Fulbion\source\repos\Lowbyte\include\Lowbyte\Log.hpp(20,42): warning C4251: 'lowbyte::Log::s_clientLogger' : class 'std::shared_ptr<spdlog::logger>' nécessite une interface DLL pour être utilisé(e) par les clients de class 'lowbyte::Log'
 C:\Users\Fulbion\source\repos\Lowbyte\external\spdlog\include\spdlog\details\registry.h(33,31): message : voir la déclaration de 'std::shared_ptr<spdlog::logger>'
-C:\Users\Fulbion\source\repos\Lowbyte\src\Lowbyte\Application.cpp(25,20): warning C4305: 'argument' : troncation de 'double' à 'GLclampf'
+C:\Users\Fulbion\source\repos\Lowbyte\src\Lowbyte\Application.cpp(42,20): warning C4305: 'argument' : troncation de 'double' à 'GLclampf'
+  Window.cpp
+C:\Users\Fulbion\source\repos\Lowbyte\include\Lowbyte\Log.hpp(19,42): warning C4251: 'lowbyte::Log::s_coreLogger' : class 'std::shared_ptr<spdlog::logger>' nécessite une interface DLL pour être utilisé(e) par les clients de class 'lowbyte::Log'
+C:\Users\Fulbion\source\repos\Lowbyte\external\spdlog\include\spdlog\details\registry.h(33,31): message : voir la déclaration de 'std::shared_ptr<spdlog::logger>'
+C:\Users\Fulbion\source\repos\Lowbyte\include\Lowbyte\Log.hpp(20,42): warning C4251: 'lowbyte::Log::s_clientLogger' : class 'std::shared_ptr<spdlog::logger>' nécessite une interface DLL pour être utilisé(e) par les clients de class 'lowbyte::Log'
+C:\Users\Fulbion\source\repos\Lowbyte\external\spdlog\include\spdlog\details\registry.h(33,31): message : voir la déclaration de 'std::shared_ptr<spdlog::logger>'
+  Génération de code en cours...
      Création de la bibliothèque bin\Debug\Lowbyte\Lowbyte.lib et de l'objet bin\Debug\Lowbyte\Lowbyte.exp
   Lowbyte.vcxproj -> C:\Users\Fulbion\source\repos\Lowbyte\bin\Debug\Lowbyte\Lowbyte.dll
